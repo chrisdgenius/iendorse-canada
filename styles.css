@@ -15,7 +15,7 @@ body {
 
 
 
-.header {
+header {
     display: flex;
     align-items: center;
     list-style: none;
@@ -25,26 +25,26 @@ body {
     padding: 10px 20px;
 }
 
-.header .logo {
+header .logo {
     margin-right: auto; /* Pushes everything else to the right */
 }
 
-.header .logo img {
+header .logo img {
     height: 50px; /* Adjust size as needed */
 }
 
-.header li {
+header li {
     margin: 0 15px;
 }
 
-.header li a {
+header li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-.header li a:hover {
+header li a:hover {
     color: #FFC107;
 }
 
