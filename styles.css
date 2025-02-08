@@ -46,6 +46,43 @@ header nav ul li a:hover {
   color: #FFC107; /* Highlight color on hover */
 }
 
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #007BFF; /* Optional: background color */
+    padding: 10px 20px;
+}
+
+.nav-bar .logo {
+    margin-right: auto; /* Pushes everything else to the right */
+}
+
+.nav-bar .logo img {
+    height: 50px; /* Adjust size as needed */
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-bar li a:hover {
+    color: #FFC107;
+}
+
+
+
 /* Hero Section */
 .hero {
   background: url('images/hero-bg.jpg') no-repeat center center/cover;
